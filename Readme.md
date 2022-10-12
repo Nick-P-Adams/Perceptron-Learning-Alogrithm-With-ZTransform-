@@ -1,3 +1,10 @@
+# Perceptron Learning Algorithm With ZTransform From Scratch
+## Description 
+Wrote Perceptron Learning Algorithm With ZTransform using Python, Jupyter Lab, and libraries such as `numPy`.
+
+# Specifications for Z-Transform.
+Below are the specifications we were tasked with when writing the Z-Transform Algorithm.
+
 ## Finish the `z_transform(X, degree = 2)` function in the enclose `utils.py` file. You only need to submit the `utils.py` file. We (the TA and myself) will use our own main module to test your code. 
 
 This `z_transform(X, degree = 2)` function takes and transforms an $n \times d$ matrix, which represents the $n$ samples from the $X$ space where each sample has $d$ features, into another matrix $Z$ of dimension size $n \times d'$ that represents the transformed samples in the $Z$ space, where each sample had $d'$ features.
@@ -157,13 +164,7 @@ Then:
    900 1125  768  960 1200 1500 1875 1024 1280 1600 2000 2500 3125]]
    ```
 
-
-
-
-
 Make sure your code works for any $n\geq 1$, any $d\geq 1$, and any $degree \geq 1$. 
-
-
 
 After you successfully complete the `z_transform` function, you may use it to replace the empty `Z-transform` function that I shared for prog2 and play with it for classification for data that are (nearly) linearly separable in various Z spaces. 
 
